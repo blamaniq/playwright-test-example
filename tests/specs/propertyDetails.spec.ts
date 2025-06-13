@@ -4,7 +4,7 @@ import { PropertyDetailsPage } from '../pages/PropertyDetailsPage';
 import { SearchPage } from '../pages/SearchPage';
 import { TestHelpers } from '../utils/helpers';
 
-test.describe('Finn.no Property Details Tests', () => {
+test.describe('Property Details Tests', () => {
   let searchPage: SearchPage;
   let propertyDetailsPage: PropertyDetailsPage;
 
