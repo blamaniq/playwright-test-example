@@ -2,7 +2,7 @@
 
 ## Overview
 
-This test suite provides comprehensive automated testing for Finn.no's real estate search platform using Playwright and TypeScript.
+This test suite provides comprehensive automated testing for real estate search platform using Playwright and TypeScript.
 
 ## Project Structure
 
