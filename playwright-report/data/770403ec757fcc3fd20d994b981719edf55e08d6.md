@@ -1,0 +1,517 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - img "FINN.no logoen viser navnet FINN skrevet med hvit skrift i et lyseblått rektangel til høyre for en mørkeblå kvartsirkel."
+  - navigation "Topp":
+    - link "Forside":
+      - /url: //www.finn.no
+      - img "FINN.no"
+    - link "Varslinger":
+      - /url: //www.finn.no/notifications
+      - img "Bjelle"
+    - link "Ny annonse":
+      - /url: //www.finn.no/create-item/start
+      - img "Sirkel med plusstegn"
+    - link "Meldinger":
+      - /url: //www.finn.no/messages
+      - img "Snakkebobler"
+    - link "Logg inn":
+      - /url: //www.finn.no/auth/login
+      - img "Sirkel med brukerprofil"
+- main:
+  - heading "Bolig til salgs" [level=1]
+  - button "Lagre søk" [disabled]
+  - button "Trakt Filtrer":
+    - img "Trakt"
+    - text: Filtrer
+  - button "Kartnål Vis på kart":
+    - img "Kartnål"
+    - text: Vis på kart
+  - combobox "Sortér på":
+    - option "Areal høy-lav"
+    - option "Areal lav-høy"
+    - option "Kvmeterpris høy-lav"
+    - option "Kvmeterpris lav-høy"
+    - option "Mest relevant"
+    - option "Nærmest"
+    - option "Prisant høy-lav"
+    - option "Prisant lav-høy"
+    - option "Publisert" [selected]
+    - option "Tot pris høy-lav"
+    - option "Tot pris lav-høy"
+  - img "Nedoverpil"
+  - region:
+    - status: 41489 resultater
+    - link "Sirkel med utropstegn Slik sorteres søkeresultatene":
+      - img "Sirkel med utropstegn"
+      - text: Slik sorteres søkeresultatene
+    - article:
+      - heading "Bjerkaker - Stor, stilfull 4-roms selveier med fantastisk sjøutsikt og garasjeplass på attraktive Bjerkaker Sjøpark" [level=2]:
+        - link "Bjerkaker - Stor, stilfull 4-roms selveier med fantastisk sjøutsikt og garasjeplass på attraktive Bjerkaker Sjøpark":
+          - /url: https://www.finn.no/realestate/homes/ad.html?finnkode=411434574
+      - text: "EiendomsMegler 1 Rødbanken Strandvegen 114 B, Tromsø 122 m² 7 900 000 kr Totalpris: 8 098 590 kr ∙ Fellesutg.: 4 666 kr Eier (Selveier) ∙ Leilighet ∙ 3 soverom Visning - 16. juni kl. 18:00 Ukens bolig"
+      - button "Hjertemerke":
+        - img
+    - text: Se statistikk for søket ditt Beta
+    - img
+    - text: Tallene oppdateres basert på ditt søk
+    - link "Velg Klikk per annonse (første 8 dager) 2 627 klikk i snitt per annonse siste 30 dager Velg Pris per kvadratmeter (m²) 51 442 kr i snitt per annonse siste 30 dager Velg Varsler sendt per annonse 1 618 varslinger i snitt per annonse siste 30 dager Velg Nye annonser 16 690 nye annonser siste 30 dager .":
+      - /url: /realestate/boligmarkedet?filters=
+      - button "Velg"
+      - text: Klikk per annonse (første 8 dager)
+      - img
+      - text: 2 627 klikk i snitt per annonse siste 30 dager
+      - img
+      - button "Velg"
+      - text: Pris per kvadratmeter (m²)
+      - img
+      - text: 51 442 kr i snitt per annonse siste 30 dager
+      - img
+      - button "Velg"
+      - text: Varsler sendt per annonse
+      - img
+      - text: 1 618 varslinger i snitt per annonse siste 30 dager
+      - img
+      - button "Velg"
+      - text: Nye annonser
+      - img
+      - text: 16 690 nye annonser siste 30 dager
+      - img
+      - text: .
+    - link "Se mer statistikk her":
+      - /url: /realestate/boligmarkedet?filters=
+    - article:
+      - heading "Hjelle - Flott halvpart av tomannsbolig med fantastisk utsikt | Dobbelgarasje m/lading | Barnevennlig | Gode solforhold" [level=2]:
+        - link "Hjelle - Flott halvpart av tomannsbolig med fantastisk utsikt | Dobbelgarasje m/lading | Barnevennlig | Gode solforhold":
+          - /url: /realestate/homes/ad.html?finnkode=406681588
+      - text: "Aktiv Laguneparken Hjellevegen 76B, Os 105 m² 3 990 000 kr Totalpris: 4 091 100 kr Eier (Selveier) ∙ Tomannsbolig ∙ 2 soverom Visning - 18. juni kl. 16:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Sandviken - Sandviken | Rålekker 3-roms leilighet over to plan med nydelig uteplass | Store oppgraderinger gjort 23/24 | El-billader" [level=2]:
+        - link "Sandviken - Sandviken | Rålekker 3-roms leilighet over to plan med nydelig uteplass | Store oppgraderinger gjort 23/24 | El-billader":
+          - /url: /realestate/homes/ad.html?finnkode=412536676
+      - text: "Eiendomsmegler Norge Bergen Sentrum Tartargaten 8, Bergen 95 m² 6 190 000 kr Totalpris: 6 357 740 kr ∙ Fellesutg.: 800 kr Eier (Selveier) ∙ Leilighet ∙ 2 soverom Visning - 19. juni kl. 16:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Skåla - Lekker, renovert enebolig rett ved skole og barnehage - Tomt på 3,8 mål - To garasjer - 5 sov og 2 stuer" [level=2]:
+        - link "Skåla - Lekker, renovert enebolig rett ved skole og barnehage - Tomt på 3,8 mål - To garasjer - 5 sov og 2 stuer":
+          - /url: /realestate/homes/ad.html?finnkode=411373907
+      - text: "EiendomsMegler 1 Molde Skårabakken 4, Skåla 170 m² 4 750 000 kr Totalpris: 4 869 840 kr Eier (Selveier) ∙ Enebolig ∙ 5 soverom Visning - 23. juni kl. 16:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Enen - Enebolig i rolig og barnevennlig område - Garasje - Fine uteareal med utsikt" [level=2]:
+        - link "Enen - Enebolig i rolig og barnevennlig område - Garasje - Fine uteareal med utsikt":
+          - /url: /realestate/homes/ad.html?finnkode=412398753
+      - text: "EiendomsMegler 1 Molde Nerlandsvegen 11, Molde 154 m² 5 200 000 kr Totalpris: 5 331 090 kr Eier (Selveier) ∙ Enebolig ∙ 3 soverom Visning - 26. juni kl. 16:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Eikeland/Vikeså - Enebolig med anneks og garasje i landlige omgivelser! Ingen boplikt!" [level=2]:
+        - link "Eikeland/Vikeså - Enebolig med anneks og garasje i landlige omgivelser! Ingen boplikt!":
+          - /url: /realestate/homes/ad.html?finnkode=412424783
+      - text: "Aktiv Jæren Øygard 4, Vikeså 86 m² 2 490 000 kr Totalpris: 2 553 490 kr Eier (Selveier) ∙ Enebolig ∙ 2 soverom Visning - 23. juni kl. 17:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "FORNEBULANDET / LAGÅSEN - Herskapelig & storslagent på toppen av Lagåsen | Utsikt | Moderne | Hage og balkong | Usjenert | Carport | Senior 55+" [level=2]:
+        - link "FORNEBULANDET / LAGÅSEN - Herskapelig & storslagent på toppen av Lagåsen | Utsikt | Moderne | Hage og balkong | Usjenert | Carport | Senior 55+":
+          - /url: /realestate/homes/ad.html?finnkode=412486075
+      - text: "EiendomsMegler 1 SR-Eiendom AS avd Ullevål Fjellveien 15, Lysaker 90 m² 11 900 000 kr Totalpris: 12 201 016 kr ∙ Fellesutg.: 6 155 kr Eier (Selveier) ∙ Leilighet ∙ 2 soverom Visning - 22. juni kl. 13:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Rehabilitert selveier i sentrum - Innflytningsklar og moderne 3-roms leilighet | Rehabilitert i 2023 | Heis | P-plass | Romslig balkong | Sentrumsnært" [level=2]:
+        - link "Rehabilitert selveier i sentrum - Innflytningsklar og moderne 3-roms leilighet | Rehabilitert i 2023 | Heis | P-plass | Romslig balkong | Sentrumsnært":
+          - /url: /realestate/homes/ad.html?finnkode=412524631
+      - text: "DNB Eiendom AS Frederik Stangs gate 18, Stokke 61 m² 2 850 000 kr Totalpris: 2 922 340 kr ∙ Fellesutg.: 2 500 kr Eier (Selveier) ∙ Leilighet ∙ 2 soverom Visning - 19. juni kl. 16:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Fredheim - 2 roms husvære i 5.etg. | Heis | Stor balkong | Oppussa i 2017 | Austvendt med god utsikt" [level=2]:
+        - link "Fredheim - 2 roms husvære i 5.etg. | Heis | Stor balkong | Oppussa i 2017 | Austvendt med god utsikt":
+          - /url: /realestate/homes/ad.html?finnkode=408550124
+      - text: "Privat Hardagervegen 6, Voss 64 m² 2 800 000 kr Totalpris: 3 561 922 kr ∙ Fellesutg.: 8 583 kr Andel ∙ Leilighet ∙ 1 soverom"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "TEISEN/FJELLHUS - Totaloppusset 1/2-part av tomannsbolig med fantastiske uteområder I Høy standard I Barnevennlig område" [level=2]:
+        - link "TEISEN/FJELLHUS - Totaloppusset 1/2-part av tomannsbolig med fantastiske uteområder I Høy standard I Barnevennlig område":
+          - /url: /realestate/homes/ad.html?finnkode=408532729
+      - text: "PrivatMegleren Panorama Harald Halvorsens vei 6B, Oslo 119 m² 10 900 000 kr Totalpris: 11 193 090 kr Eier (Selveier) ∙ Tomannsbolig ∙ 2 soverom Visning - 22. juni kl. 13:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Langesund sentrum - Klassisk villa med 2 godkjente utleieenheter med gode leieinntekter - nyere hagestue og attraktiv beliggenhet" [level=2]:
+        - link "Langesund sentrum - Klassisk villa med 2 godkjente utleieenheter med gode leieinntekter - nyere hagestue og attraktiv beliggenhet":
+          - /url: /realestate/homes/ad.html?finnkode=359149676
+      - text: "Meglerhuset Telemark As Kongshavns gate 4, Langesund 384 m² 7 490 000 kr Totalpris: 7 696 090 kr Eier (Selveier) ∙ Enebolig ∙ 5 soverom Visning - 21. juni kl. 12:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Stor enebolig med hybel i populært boligområde | Betydelig oppusset" [level=2]:
+        - link "Stor enebolig med hybel i populært boligområde | Betydelig oppusset":
+          - /url: /realestate/homes/ad.html?finnkode=412451526
+      - text: "DNB Eiendom AS Ådlandsvegen 76, Stord 196 m² 4 500 000 kr Totalpris: 4 613 590 kr Eier (Selveier) ∙ Enebolig ∙ 4 soverom Visning - 25. juni kl. 15:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Lommedalen - Fantastisk beliggende enebolig. Høyt, fritt og solrikt! Skjermet idyllisk tomt som grenser mot marka. Dobbelgarasje" [level=2]:
+        - link "Lommedalen - Fantastisk beliggende enebolig. Høyt, fritt og solrikt! Skjermet idyllisk tomt som grenser mot marka. Dobbelgarasje":
+          - /url: /realestate/homes/ad.html?finnkode=409096365
+      - text: "DNB Eiendom AS Grorudenga 23, Lommedalen 189 m² 12 950 000 kr Totalpris: 13 274 840 kr Eier (Selveier) ∙ Enebolig ∙ 3 soverom Visning - 19. juni kl. 18:15"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Stilfull, delikat og påkostet i Petterbråten. Takterrasse, utsikt og masse sol." [level=2]:
+        - link "Stilfull, delikat og påkostet i Petterbråten. Takterrasse, utsikt og masse sol.":
+          - /url: /realestate/homes/ad.html?finnkode=407505568
+      - text: "EiendomsMegler 1 Fjellmegleren Geitevegen 3, Gol 125 m² 5 090 000 kr Totalpris: 5 225 070 kr Eier (Selveier) ∙ Rekkehus ∙ 3 soverom Visning - 24. juni kl. 17:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Ljan / Nordstrand - Stor( BRA 325 m²) og flott enebolig I Ettertraktet beliggenhet I Solrik tomt på 1081 m² I Dobbelgarasje" [level=2]:
+        - link "Ljan / Nordstrand - Stor( BRA 325 m²) og flott enebolig I Ettertraktet beliggenhet I Solrik tomt på 1081 m² I Dobbelgarasje":
+          - /url: /realestate/homes/ad.html?finnkode=402656989
+      - text: "PrivatMegleren Panorama Svenskestien 6, Oslo 258 m² 20 500 000 kr Totalpris: 21 033 090 kr Eier (Selveier) ∙ Enebolig ∙ 4 soverom Visning - 22. juni kl. 12:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Valentinlyst - MODERNE OG LETTSTELT 3-ROMS MED GOD BELIGGENHET|Stor og solrik balkong|Heis|Parkering i P.kjeller|0KR I FELLESKOSTNADER*" [level=2]:
+        - link "Valentinlyst - MODERNE OG LETTSTELT 3-ROMS MED GOD BELIGGENHET|Stor og solrik balkong|Heis|Parkering i P.kjeller|0KR I FELLESKOSTNADER*":
+          - /url: /realestate/homes/ad.html?finnkode=402425913
+      - text: "EiendomsMegler 1 Valentinlyst Anders Estenstads veg 3E, Trondheim 50 m² 3 790 000 kr Totalpris: 3 961 865 kr ∙ Fellesutg.: 7 512 kr Andel ∙ Leilighet ∙ 2 soverom Visning - 19. juni kl. 15:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Moderne og innholdsrik 4-roms over 2 plan | Vestvendt balkong | Barnevennlig | Garasjeplass m/lader | Kort vei til \"alt\"" [level=2]:
+        - link "Moderne og innholdsrik 4-roms over 2 plan | Vestvendt balkong | Barnevennlig | Garasjeplass m/lader | Kort vei til \"alt\"":
+          - /url: /realestate/homes/ad.html?finnkode=412528993
+      - text: "DNB Eiendom AS Nordre Skrenten 1B, Tårnåsen 78 m² 4 650 000 kr Totalpris: 4 767 340 kr Eier (Selveier) ∙ Leilighet ∙ 3 soverom Visning - 18. juni kl. 18:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Hystad - Vakker enebolig m/utleiedel(kr.7900, pr.mnd)flott hage & upåklagelig sjøutsikt! Solrik tomt. Barnevennl. Like v/ alt ." [level=2]:
+        - link "Hystad - Vakker enebolig m/utleiedel(kr.7900, pr.mnd)flott hage & upåklagelig sjøutsikt! Solrik tomt. Barnevennl. Like v/ alt .":
+          - /url: /realestate/homes/ad.html?finnkode=412509895
+      - text: "Aktiv Bergen Vest Hystadtunet 2, Stord 176 m² 4 490 000 kr Totalpris: 4 603 600 kr Eier (Selveier) ∙ Enebolig ∙ 4 soverom Visning - 22. juni kl. 14:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Lillehammer/Suttestad - Meget tiltalende og innholdsrik enebolig med sentral og barnevennlig beliggenhet |Dobbelgarasje | Pent opparbeidet hage" [level=2]:
+        - link "Lillehammer/Suttestad - Meget tiltalende og innholdsrik enebolig med sentral og barnevennlig beliggenhet |Dobbelgarasje | Pent opparbeidet hage":
+          - /url: /realestate/homes/ad.html?finnkode=412511814
+      - text: "PrivatMegleren Lillehammer Møinichens gate 12, Lillehammer 258 m² 9 800 000 kr Totalpris: 10 046 090 kr Eier (Selveier) ∙ Enebolig ∙ 4 soverom Visning - 24. juni kl. 17:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Birkenlund - Lys og innbydende 3-roms leilighet på Nordre Kirkefjell! Solrik uteplass og hage" [level=2]:
+        - link "Birkenlund - Lys og innbydende 3-roms leilighet på Nordre Kirkefjell! Solrik uteplass og hage":
+          - /url: /realestate/homes/ad.html?finnkode=412481376
+      - text: "Exbo Sørlandet AS Nordre Kirkefjell 30, Arendal 77 m² 1 890 000 kr Totalpris: 2 486 556 kr ∙ Fellesutg.: 8 118 kr Andel ∙ Leilighet ∙ 2 soverom Visning - 25. juni kl. 16:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Hvittingfoss - Praktisk enebolig med alt på ei flate | Solrik og nydelig hagetomt | Barnevennlig og rolig område" [level=2]:
+        - link "Hvittingfoss - Praktisk enebolig med alt på ei flate | Solrik og nydelig hagetomt | Barnevennlig og rolig område":
+          - /url: /realestate/homes/ad.html?finnkode=412417899
+      - text: "EIE eiendomsmegling Larvik & Lågendalen Solåsveien 23, Hvittingfoss 114 m² 2 790 000 kr Totalpris: 2 880 980 kr Eier (Selveier) ∙ Enebolig ∙ 3 soverom Visning - 22. juni kl. 13:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Rønnes - Ny pris! Idyllisk og sjelden eiendom med ca.17 meter strandlinje - Brygge, utsikt, garasje, sjøbu og magiske solforhold!" [level=2]:
+        - link "Rønnes - Ny pris! Idyllisk og sjelden eiendom med ca.17 meter strandlinje - Brygge, utsikt, garasje, sjøbu og magiske solforhold!":
+          - /url: /realestate/homes/ad.html?finnkode=400280022
+      - text: "Krogsveen Arendal Rønnes 25, Grimstad 236 m² 17 000 000 kr Totalpris: 17 445 990 kr Eier (Selveier) ∙ Enebolig ∙ 6 soverom Visning etter avtale"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Kvadraturen - Klassisk og lekker 3-roms selveier med balkong - Attraktiv og sentral beliggenhet - Gjennomgående planløsning" [level=2]:
+        - link "Kvadraturen - Klassisk og lekker 3-roms selveier med balkong - Attraktiv og sentral beliggenhet - Gjennomgående planløsning":
+          - /url: /realestate/homes/ad.html?finnkode=412355186
+      - text: "Privatmegleren Sædberg & Lian Kongens gate 69A, Kristiansand S 90 m² 4 990 000 kr Totalpris: 5 115 840 kr ∙ Fellesutg.: 2 200 kr Eier (Selveier) ∙ Leilighet ∙ 2 soverom Visning - 19. juni kl. 18:45"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "MESNALI - Flott beliggende enebolig i et natureldorado med kort veg til Sjusjøen og Natrudstilen - Pent opparbeidet tomt" [level=2]:
+        - link "MESNALI - Flott beliggende enebolig i et natureldorado med kort veg til Sjusjøen og Natrudstilen - Pent opparbeidet tomt":
+          - /url: /realestate/homes/ad.html?finnkode=395492189
+      - text: "EiendomsMegler 1 Østlandet - avd. Lillehammer Nordmessenvegen 216, Mesnali 195 m² 4 250 000 kr Totalpris: 4 357 250 kr Eier (Selveier) ∙ Enebolig ∙ 4 soverom Visning - 19. juni kl. 17:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Velholdt halvpart tomannsbolig i Jessheim sentrum | Solrikt, skjermet og trafikkstille | 2 garasjeplasser" [level=2]:
+        - link "Velholdt halvpart tomannsbolig i Jessheim sentrum | Solrikt, skjermet og trafikkstille | 2 garasjeplasser":
+          - /url: /realestate/homes/ad.html?finnkode=412337872
+      - text: "EIE eiendomsmegling Jessheim Verkensvegen 12C, Jessheim 104 m² 5 200 000 kr Totalpris: 5 341 300 kr Eier (Selveier) ∙ Tomannsbolig ∙ 2 soverom Visning - 22. juni kl. 15:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Nøkkelferdige moderne eneboliger i rolige og idylliske omgivelser" [level=2]:
+        - link "Nøkkelferdige moderne eneboliger i rolige og idylliske omgivelser":
+          - /url: /realestate/project/ad.html?finnkode=334630491
+      - text: "Mesterhus - Norrøn Bolig AS Nyeveien, Egersund 5 590 000 - 6 990 000 kr Totalpris: 5 616 350 - 7 016 350 kr Eier (Selveier) ∙ Enebolig Visning etter avtale"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Føynland - Stor, velholdt familiebolig med nydelig hage. Hagestue og flust av gode uteplasser. Usjenert beliggende nær Fjærholmen." [level=2]:
+        - link "Føynland - Stor, velholdt familiebolig med nydelig hage. Hagestue og flust av gode uteplasser. Usjenert beliggende nær Fjærholmen.":
+          - /url: /realestate/homes/ad.html?finnkode=412464909
+      - text: "Aktiv Tønsberg og Re Østbyveien 36, Husøysund 246 m² 8 500 000 kr Totalpris: 8 713 850 kr Eier (Selveier) ∙ Enebolig ∙ 3 soverom Visning - 21. juni kl. 13:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Konnerud - Ny enebolig med integrert dobbelgarasje - Hybel - Store terrasser, 5 soverom og 4 bad. Privat og solrikt ved marka" [level=2]:
+        - link "Konnerud - Ny enebolig med integrert dobbelgarasje - Hybel - Store terrasser, 5 soverom og 4 bad. Privat og solrikt ved marka":
+          - /url: /realestate/homes/ad.html?finnkode=384510951
+      - text: "PrivatMegleren Drammen Hauanveien 45A, Drammen 316 m² 10 950 000 kr Totalpris: 10 978 090 kr Eier (Selveier) ∙ Enebolig ∙ 6 soverom Visning etter avtale"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Årvoll/Moss - Innholdsrik enebolig over to plan beliggende nær skog og natur | Hagestue | Gode solforhold på terrassen | Garasje" [level=2]:
+        - link "Årvoll/Moss - Innholdsrik enebolig over to plan beliggende nær skog og natur | Hagestue | Gode solforhold på terrassen | Garasje":
+          - /url: /realestate/homes/ad.html?finnkode=412496320
+      - text: "DNB Eiendom AS Storebaugveien 7, Moss 127 m² 3 800 000 kr Totalpris: 3 896 090 kr Eier (Selveier) ∙ Enebolig ∙ 3 soverom Visning - 23. juni kl. 18:15"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Moderne 1-roms eierleilighet i nybygg fra 2018 | Balkong | Heis | Fyring/V.V inkl | Sentral beliggenhet i Gjøvik sentrum" [level=2]:
+        - link "Moderne 1-roms eierleilighet i nybygg fra 2018 | Balkong | Heis | Fyring/V.V inkl | Sentral beliggenhet i Gjøvik sentrum":
+          - /url: /realestate/homes/ad.html?finnkode=412498111
+      - text: "DNB Eiendom AS Kirkegata 1, Gjøvik 24 m² 1 990 000 kr Totalpris: 2 040 840 kr ∙ Fellesutg.: 2 963 kr Eier (Selveier) ∙ Leilighet Visning - 25. juni kl. 16:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Grønland | Lys og arealeffektiv 2-roms selveier. Sentrumsnær beliggenhet. Stor balkong med fine solforhold. Fjernvarme!" [level=2]:
+        - link "Grønland | Lys og arealeffektiv 2-roms selveier. Sentrumsnær beliggenhet. Stor balkong med fine solforhold. Fjernvarme!":
+          - /url: /realestate/homes/ad.html?finnkode=412147891
+      - text: "EIE eiendomsmegling Frogner Tøyenbekken 4, Oslo 53 m² 4 350 000 kr Totalpris: 4 460 139 kr ∙ Fellesutg.: 4 522 kr Eier (Selveier) ∙ Leilighet ∙ 1 soverom Visning - 19. juni kl. 17:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Myrdal - Strøkent townhouse fra 2018 med høy standard og solrik uteplass | Garasjeplass med lading - Ekstra garasjeplass mulig!*" [level=2]:
+        - link "Myrdal - Strøkent townhouse fra 2018 med høy standard og solrik uteplass | Garasjeplass med lading - Ekstra garasjeplass mulig!*":
+          - /url: /realestate/homes/ad.html?finnkode=412382910
+      - text: "DNB Eiendom AS Myrdalsvegen 96, Nyborg 111 m² 5 990 000 kr Totalpris: 6 140 840 kr ∙ Fellesutg.: 2 649 kr Eier (Selveier) ∙ Tomannsbolig ∙ 3 soverom Visning - 22. juni kl. 13:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Einebustad nær sentrum med triveleg utemiljø - Garasje" [level=2]:
+        - link "Einebustad nær sentrum med triveleg utemiljø - Garasje":
+          - /url: /realestate/homes/ad.html?finnkode=412532890
+      - text: "Kragset & Partners Ørstavegen 90, Volda 162 m² 2 550 000 kr Totalpris: 2 634 740 kr Eier (Selveier) ∙ Enebolig ∙ 4 soverom Visning - 24. juni kl. 18:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Råstølen | Perfekt beliggende, lys og flott 2-roms. Stor altan. Moderne bygg fra 2017. Like ved buss, butikk og bybane!" [level=2]:
+        - link "Råstølen | Perfekt beliggende, lys og flott 2-roms. Stor altan. Moderne bygg fra 2017. Like ved buss, butikk og bybane!":
+          - /url: /realestate/homes/ad.html?finnkode=412496891
+      - text: "EIE eiendomsmegling Bergen Sør Steinsvikvegen 266, Rådal 43 m² 2 990 000 kr Totalpris: 3 066 100 kr ∙ Fellesutg.: 1 530 kr Eier (Selveier) ∙ Leilighet ∙ 1 soverom Visning - 19. juni kl. 16:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "NYHET! Landås - Oppusset og svært lekkert rekkehus | Parkering | Nydelig uteplass mot vest | Nært Bybanen | Sjelden mulighet!" [level=2]:
+        - link "NYHET! Landås - Oppusset og svært lekkert rekkehus | Parkering | Nydelig uteplass mot vest | Nært Bybanen | Sjelden mulighet!":
+          - /url: /realestate/homes/ad.html?finnkode=412532637
+      - text: "ZMegleren AS Nordrehaug 9C, Bergen 128 m² 7 490 000 kr Totalpris: 7 698 500 kr Eier (Selveier) ∙ Rekkehus ∙ 3 soverom Visning - 19. juni kl. 16:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Hvittingfoss - Stor familiebolig fra 2016 | Romslig gårdsplass og dobbelgarasje | Solcellepanel og vannbåren varme" [level=2]:
+        - link "Hvittingfoss - Stor familiebolig fra 2016 | Romslig gårdsplass og dobbelgarasje | Solcellepanel og vannbåren varme":
+          - /url: /realestate/homes/ad.html?finnkode=412427504
+      - text: "EIE eiendomsmegling Larvik & Lågendalen Bjørkhaugen 11, Hvittingfoss 166 m² 4 450 000 kr Totalpris: 4 582 480 kr Eier (Selveier) ∙ Enebolig ∙ 4 soverom Visning - 22. juni kl. 14:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Krapfoss - Flott, stor familiebolig m/solrike uteplasser og nydelig, grønn hage - Dobbelgarasje - Nær sentrum - Mulighet for hybel!" [level=2]:
+        - link "Krapfoss - Flott, stor familiebolig m/solrike uteplasser og nydelig, grønn hage - Dobbelgarasje - Nær sentrum - Mulighet for hybel!":
+          - /url: /realestate/homes/ad.html?finnkode=412422467
+      - text: "Nordvik Moss Eikaveien 17, Moss 283 m² 9 500 000 kr Totalpris: 9 738 850 kr Eier (Selveier) ∙ Enebolig ∙ 4 soverom Visning - 22. juni kl. 13:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Kvernevik - Pen og innbydende leilighet med naturen tett på - Balkong med ypperlige solforhold - Parkering" [level=2]:
+        - link "Kvernevik - Pen og innbydende leilighet med naturen tett på - Balkong med ypperlige solforhold - Parkering":
+          - /url: /realestate/homes/ad.html?finnkode=412520898
+      - text: "Eiendomsmegler Norge Stavanger Alkeveien 1F, Hafrsfjord 58 m² 2 690 000 kr Totalpris: 2 831 840 kr ∙ Fellesutg.: 3 600 kr Andel ∙ Leilighet ∙ 1 soverom Visning - 23. juni kl. 16:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Velkommen til Rælingen! - Påkostet og gjennomført 2-roms selveier - Bad fra 2023 & kjøkken fra 2019 - Usjenert balkong m/utsikt - Felles p.plass" [level=2]:
+        - link "Velkommen til Rælingen! - Påkostet og gjennomført 2-roms selveier - Bad fra 2023 & kjøkken fra 2019 - Usjenert balkong m/utsikt - Felles p.plass":
+          - /url: /realestate/homes/ad.html?finnkode=412411490
+      - text: "EIE eiendomsmegling Lørenskog Sundenga 15, Fjerdingby 55 m² 3 190 000 kr Totalpris: 3 804 120 kr ∙ Fellesutg.: 5 858 kr Eier (Selveier) ∙ Leilighet ∙ 1 soverom Visning - 18. juni kl. 17:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Grefsen. - Nyere og innholdsrik enebolig over tre plan i et rolig villaområde, med stor terrasse, moderne kjøkken og garasjerom." [level=2]:
+        - link "Grefsen. - Nyere og innholdsrik enebolig over tre plan i et rolig villaområde, med stor terrasse, moderne kjøkken og garasjerom.":
+          - /url: /realestate/homes/ad.html?finnkode=398982587
+      - text: "PrivatMegleren Renommé Ogmunds vei 15C, Oslo 190 m² 15 950 000 kr Totalpris: 16 369 340 kr Eier (Selveier) ∙ Enebolig ∙ 4 soverom Visning - 22. juni kl. 15:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Krokstadelva / Langløkka - Enebolig med godkjent utleiedel - 2 nye bad 2025 - Dobbelgarasje - Solrike terrasser og hage - Utestue" [level=2]:
+        - link "Krokstadelva / Langløkka - Enebolig med godkjent utleiedel - 2 nye bad 2025 - Dobbelgarasje - Solrike terrasser og hage - Utestue":
+          - /url: /realestate/homes/ad.html?finnkode=321796189
+      - text: "PrivatMegleren Drammen Veslefrikk 2, Krokstadelva 220 m² 6 990 000 kr Totalpris: 7 185 340 kr Eier (Selveier) ∙ Enebolig ∙ 5 soverom Visning - 19. juni kl. 17:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Landås | Innbydende 3-roms eierseksjonsleilighet med sentral beliggenhet | Balkong" [level=2]:
+        - link "Landås | Innbydende 3-roms eierseksjonsleilighet med sentral beliggenhet | Balkong":
+          - /url: /realestate/homes/ad.html?finnkode=412444720
+      - text: "DNB Eiendom AS Slettebakksveien 46, Bergen 59 m² 3 880 000 kr Totalpris: 3 978 090 kr ∙ Fellesutg.: 1 800 kr Eier (Selveier) ∙ Leilighet ∙ 2 soverom Visning - 19. juni kl. 16:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Moderne og nyoppusset selveierleilighet rett ved fjorden | Båtplass | Kort avstand til de fleste nødvendigheter" [level=2]:
+        - link "Moderne og nyoppusset selveierleilighet rett ved fjorden | Båtplass | Kort avstand til de fleste nødvendigheter":
+          - /url: /realestate/homes/ad.html?finnkode=412464055
+      - text: "DNB Eiendom AS Storgaten 27, Svelvik 64 m² 2 590 000 kr Totalpris: 2 656 090 kr ∙ Fellesutg.: 1 500 kr Eier (Selveier) ∙ Leilighet ∙ 1 soverom Visning - 19. juni kl. 17:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Valentinlyst - Lekker andelsleilighet| Moderne oppusset| Felles oppstillingsplass - Nærhet til servicefasiliteter |" [level=2]:
+        - link "Valentinlyst - Lekker andelsleilighet| Moderne oppusset| Felles oppstillingsplass - Nærhet til servicefasiliteter |":
+          - /url: /realestate/homes/ad.html?finnkode=412349742
+      - text: "EiendomsMegler 1 Heimdal Bromstadbuen 4, Trondheim 52 m² 2 600 000 kr Totalpris: 2 692 466 kr ∙ Fellesutg.: 3 459 kr Andel ∙ Tomannsbolig ∙ 1 soverom Visning - 25. juni kl. 12:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Lys og arealeffektiv leilighet med flott utsikt | Nytt bad fra 2018 | Varmtvann og oppvarming inkl. | Ingen dok.avgift" [level=2]:
+        - link "Lys og arealeffektiv leilighet med flott utsikt | Nytt bad fra 2018 | Varmtvann og oppvarming inkl. | Ingen dok.avgift":
+          - /url: /realestate/homes/ad.html?finnkode=409214954
+      - text: "Eiendomsmeglerne Teisenveien 43, Oslo 24 m² 2 950 000 kr Totalpris: 3 236 197 kr ∙ Fellesutg.: 4 423 kr Andel ∙ Leilighet Visning - 22. juni kl. 14:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Innholdsrik eiendom med stort potensiale, to bolighus og sentral beliggenhet på Fosse | Flotte utsiktsforhold | Løe" [level=2]:
+        - link "Innholdsrik eiendom med stort potensiale, to bolighus og sentral beliggenhet på Fosse | Flotte utsiktsforhold | Løe":
+          - /url: /realestate/homes/ad.html?finnkode=412281851
+      - text: "Eiendomsmegler Norge Nordhordland Fosse 3, Frekhaug 163 m² 4 190 000 kr Totalpris: 4 313 340 kr Eier (Selveier) ∙ Enebolig ∙ 3 soverom Visning - 19. juni kl. 17:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "BJERKAKER SJØPARK - Innbydende 3-roms leilighet med terrasse | Gode kvaliteter og bygg fra 2020 | Heis og parkeringsplass | IN ordning" [level=2]:
+        - link "BJERKAKER SJØPARK - Innbydende 3-roms leilighet med terrasse | Gode kvaliteter og bygg fra 2020 | Heis og parkeringsplass | IN ordning":
+          - /url: /realestate/homes/ad.html?finnkode=412472316
+      - text: "DNB Eiendom AS Strandvegen 116B, Tromsø 56 m² 2 290 000 kr Totalpris: 4 205 090 kr ∙ Fellesutg.: 12 296 kr Andel ∙ Leilighet ∙ 2 soverom Visning - 19. juni kl. 18:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Straumen/Sundsnesset - Stor enebolig med utleie | Strålende sol og utsiktsforhold | Isolert dobbelgarasje | 4 soverom | Attraktivt boligområde" [level=2]:
+        - link "Straumen/Sundsnesset - Stor enebolig med utleie | Strålende sol og utsiktsforhold | Isolert dobbelgarasje | 4 soverom | Attraktivt boligområde":
+          - /url: /realestate/homes/ad.html?finnkode=412492417
+      - text: "EiendomsMegler 1 Verdal Kvitveisvegen 11, Inderøy 253 m² 6 490 000 kr Totalpris: 6 653 340 kr Eier (Selveier) ∙ Enebolig ∙ 4 soverom Visning - 26. juni kl. 18:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Velholdt familiebolig over 2 plan. Solrik terrasse og hage. Garasje. Nyere vinduer fra 2018." [level=2]:
+        - link "Velholdt familiebolig over 2 plan. Solrik terrasse og hage. Garasje. Nyere vinduer fra 2018.":
+          - /url: /realestate/homes/ad.html?finnkode=412467431
+      - text: "EIE eiendomsmegling Sinsen Grettefjellveien 46, Røyken 140 m² 4 900 000 kr Totalpris: 5 044 035 kr Eier (Selveier) ∙ Andre ∙ 3 soverom Visning - 22. juni kl. 12:00"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Lys og moderne 2-roms i etablerte omgivelser - Åpen stue/kjøkken | Felles takterrasse | Heis | Nær Ski og Follobanen" [level=2]:
+        - link "Lys og moderne 2-roms i etablerte omgivelser - Åpen stue/kjøkken | Felles takterrasse | Heis | Nær Ski og Follobanen":
+          - /url: /realestate/homes/ad.html?finnkode=412067881
+      - text: "EIE eiendomsmegling Ski & Ås Nordbyveien 128, Ski 54 m² 3 450 000 kr Totalpris: 3 828 839 kr ∙ Fellesutg.: 5 959 kr Eier (Selveier) ∙ Leilighet Visning - 19. juni kl. 17:30"
+      - button "Hjertemerke":
+        - img
+    - article:
+      - heading "Ormåsen - Pen selveierleil. fra 2021 med 3 sov., 2 stuer og 2 bad | carport m/elbil-lader | Barnevennlig nær skole, marka og buss!" [level=2]:
+        - link "Ormåsen - Pen selveierleil. fra 2021 med 3 sov., 2 stuer og 2 bad | carport m/elbil-lader | Barnevennlig nær skole, marka og buss!":
+          - /url: /realestate/homes/ad.html?finnkode=396589756
+      - text: "EIE eiendomsmegling Drammen Kvitkrullen 32, Vestfossen 113 m² 4 190 000 kr Totalpris: 4 305 940 kr ∙ Fellesutg.: 4 050 kr Eier (Selveier) ∙ Leilighet ∙ 3 soverom Visning - 24. juni kl. 17:00"
+      - button "Hjertemerke":
+        - img
+    - navigation "Sider":
+      - heading "Sider" [level=1]
+      - text: Side 1
+      - link "Neste side, Pil til høyre ikon":
+        - /url: "?filters=&page=2"
+        - text: Neste side,
+        - img "Pil til høyre"
+        - text: ikon
+- contentinfo:
+  - navigation "Bunntekst":
+    - heading "Logoen til FINN" [level=1]:
+      - link "Logoen til FINN":
+        - /url: //www.finn.no
+        - img "Logoen til FINN"
+    - heading "Næringsvirksomhet" [level=2]
+    - link "Bli bedriftskunde":
+      - /url: https://www.finn.no/bli-bedriftskunde
+    - link "Informasjon og inspirasjon":
+      - /url: https://www.finn.no/bedriftskunde
+    - link "Admin for bedrifter":
+      - /url: https://www.finn.no/bedrift
+    - heading "Om FINN" [level=2]
+    - link "Karriere":
+      - /url: https://vend.com/career
+    - link "FINNspirasjon":
+      - /url: https://www.finn.no/finnspirasjon
+    - link "Om Vend":
+      - /url: https://www.finn.no/bap/artikler/om-vend
+    - heading "Personvern" [level=2]
+    - link "Personvernerklæring":
+      - /url: https://vend.com/privacy/no-policy
+    - link "Personvern i FINN":
+      - /url: https://hjelpesenter.finn.no/hc/no/articles/211889165
+    - button "Innstillinger for informasjonskapsler"
+    - heading "Få hjelp" [level=2]
+    - link "Kundeservice":
+      - /url: https://hjelpesenter.finn.no/hc/no
+    - link "Trygg handel på FINN":
+      - /url: https://www.finn.no/bap/artikler/trygg-pa-finn
+    - link "Fiks ferdig":
+      - /url: https://www.finn.no/bap/artikler/kundeservice/
+    - link "Bruksvilkår":
+      - /url: https://login.vend.no/about/terms?client_id=5087dc1b421c7a0b79000000&locale=nb_NO
+    - link "Annonseregler":
+      - /url: https://hjelpesenter.finn.no/hc/no/sections/39344-Våre-annonseregler
+    - link "Tilgjengelighet":
+      - /url: https://hjelpesenter.finn.no/hc/no/articles/16291504931858-Tilgjengelighetserklæring-på-FINN
+    - heading "Sosiale medier" [level=2]
+    - link "Facebook logo":
+      - /url: https://www.facebook.com/finn.no/
+      - img "Facebook logo"
+    - link "Twitter logo":
+      - /url: https://twitter.com/finn_no
+      - img "Twitter logo"
+    - link "Instagram logo":
+      - /url: https://www.instagram.com/finn_no/
+      - img "Instagram logo"
+    - link "YouTube logo":
+      - /url: https://www.youtube.com/user/finn
+      - img "YouTube logo"
+    - region "Opphavsrett":
+      - paragraph: Innholdet er beskyttet etter åndsverkloven. Regelmessig, systematisk eller kontinuerlig innhenting, lagring, indeksering, distribusjon og all annen form for sammenstilling av data tillates ikke uten eksplisitt, skriftlig tillatelse fra FINN.
+      - paragraph: © 1996–2025 FINN.no AS
+  - link "Helthjem":
+    - /url: https://helthjem.no/
+  - link "Lendo":
+    - /url: https://www.lendo.no/
+  - link "Morgenlevering":
+    - /url: https://morgenlevering.no/
+  - link "Nettbil":
+    - /url: https://www.nettbil.no/
+  - link "Prisjakt":
+    - /url: https://www.prisjakt.no/
+  - link "Mobil med garanti":
+    - /url: https://www.finn.no/nybrukt
+  - region "Personvern i Vend":
+    - img "En del av Vend"
+    - text: Vend er ansvarlig for dine data på denne siden
+    - link "Les mer":
+      - /url: https://vend.com/privacy/no-policy
+- img
+- dialog "SP Consent Message":
+  - iframe
+```

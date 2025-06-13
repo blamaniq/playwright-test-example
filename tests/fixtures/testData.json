@@ -1,0 +1,31 @@
+{
+  "validSearchData": {
+    "locations": ["Oslo", "Bergen", "Trondheim", "Stavanger"],
+    "priceRanges": [
+      { "from": "2000000", "to": "4000000" },
+      { "from": "4000000", "to": "6000000" },
+      { "from": "6000000", "to": "10000000" }
+    ],
+    "propertySizes": [
+      { "from": "50", "to": "100" },
+      { "from": "100", "to": "150" },
+      { "from": "150", "to": "250" }
+    ],
+    "propertyTypes": [
+      { "value": "Leilighet", "label": "Apartment" },
+      { "value": "Enebolig", "label": "House" },
+      { "value": "Rekkehus", "label": "Townhouse" }
+    ]
+  },
+  "invalidSearchData": {
+    "invalidPrices": ["-1000", "abc", "999999999999"],
+    "invalidSizes": ["-50", "0", "xyz"],
+    "emptyLocation": "",
+    "specialCharacters": ["!@#$%", "<script>alert('test')</script>", "'; DROP TABLE properties;--"]
+  },
+  "expectedErrors": {
+    "invalidPrice": "Ugyldig prisområde",
+    "invalidSize": "Ugyldig størrelse",
+    "noResults": "Ingen treff"
+  }
+}
