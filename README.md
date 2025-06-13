@@ -1,4 +1,4 @@
-# Finn.no Property Search - Automated Test Suite
+# REA Property Search - Automated Test Suite
 
 ## Overview
 
